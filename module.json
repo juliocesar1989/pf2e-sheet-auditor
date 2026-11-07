@@ -3,14 +3,40 @@
   "title": "PF2e Sheet Auditor",
   "description": "Adds an Audit Feats button to Pathfinder 2e (Remaster) character sheets. It checks every feat's prerequisites, feat levels, level-1-only feats, max takable and the archetype dedication rule, then generates a downloadable HTML report. English only.",
   "version": "0.1.0",
-  "authors": [{ "name": "juliocesar1989" }],
-  "compatibility": { "minimum": "13", "verified": "13" },
+  "authors": [
+    {
+      "name": "juliocesar1989"
+    }
+  ],
+  "url": "https://github.com/juliocesar1989/pf2e-sheet-auditor",
+  "manifest": "https://github.com/juliocesar1989/pf2e-sheet-auditor/releases/latest/download/module.json",
+  "download": "https://github.com/juliocesar1989/pf2e-sheet-auditor/releases/latest/download/module.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
   "relationships": {
     "systems": [
-      { "id": "pf2e", "type": "system", "compatibility": { "minimum": "7.0.0" } }
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "7.0.0"
+        }
+      }
     ]
   },
-  "esmodules": ["scripts/main.js"],
-  "styles": ["styles/auditor.css"],
-  "languages": [{ "lang": "en", "name": "English", "path": "lang/en.json" }]
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/auditor.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
 }

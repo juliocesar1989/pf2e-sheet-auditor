@@ -21,6 +21,16 @@ Módulo independente para Foundry VTT que adiciona um botão **Audit Feats** ao 
 - **Somente inglês.** Os textos de pré-requisito são interpretados em inglês. Se o idioma do Foundry não for `en`, o módulo se desativa.
 - Talentos de conteúdo legado continuam sendo auditados, mas recebem um aviso no relatório.
 
+## Instalação pelo manifest
+
+Em *Add-on Modules → Install Module*, cole:
+
+```
+https://github.com/juliocesar1989/pf2e-sheet-auditor/releases/latest/download/module.json
+```
+
+Isso funciona depois que houver um release no GitHub com os arquivos `module.json` e `module.zip` anexados. O zip deve conter a pasta do módulo.
+
 ## Instalação manual
 
 1. Copie a pasta `pf2e-sheet-auditor` para `Data/modules/` do Foundry. O nome da pasta precisa ser igual ao `id` no `module.json`.
