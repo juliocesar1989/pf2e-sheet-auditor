@@ -29,7 +29,18 @@ Em *Add-on Modules → Install Module*, cole:
 https://github.com/juliocesar1989/pf2e-sheet-auditor/releases/latest/download/module.json
 ```
 
-Isso funciona depois que houver um release no GitHub com os arquivos `module.json` e `module.zip` anexados. O zip deve conter a pasta do módulo.
+O link funciona a partir do primeiro release.
+
+### Publicar uma nova versão
+
+O workflow `.github/workflows/release.yml` gera o release sozinho. Basta criar e enviar uma tag de versão:
+
+```bash
+git tag v0.1.0
+git push origin v0.1.0
+```
+
+O workflow roda os testes, grava a versão da tag (`0.1.0`) e o link de download no `module.json`, monta o `module.zip` (`module.json`, `README.md`, `scripts/`, `lang/`, `styles/`) e publica o release com os dois arquivos. Se os testes falharem, nenhum release é publicado.
 
 ## Instalação manual
 
