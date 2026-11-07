@@ -1,0 +1,9 @@
+.pf2e-sheet-auditor .window-content { padding: 0; overflow: hidden; }
+.pf2e-sheet-auditor .psa-report { display: flex; flex-direction: column; height: 100%; }
+.pf2e-sheet-auditor .psa-toolbar { display: flex; align-items: center; gap: 8px; padding: 6px 8px; border-bottom: 1px solid var(--color-border, #999); }
+.pf2e-sheet-auditor .psa-toolbar button { flex: 0 0 auto; width: auto; }
+.pf2e-sheet-auditor .psa-counts { flex: 1; display: flex; gap: 12px; font-weight: 700; }
+.pf2e-sheet-auditor .psa-counts .ok { color: #2e7d32; }
+.pf2e-sheet-auditor .psa-counts .fail { color: #c62828; }
+.pf2e-sheet-auditor .psa-counts .review { color: #b26a00; }
+.pf2e-sheet-auditor .psa-frame { flex: 1; width: 100%; border: 0; background: #fff; }

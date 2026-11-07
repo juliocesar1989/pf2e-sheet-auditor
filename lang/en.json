@@ -1,0 +1,25 @@
+{
+  "PF2E_SHEET_AUDITOR": {
+    "Button": { "Label": "Audit Feats" },
+    "Report": {
+      "Title": "Feat Audit: {name}",
+      "Download": "Download HTML",
+      "Reaudit": "Re-audit"
+    },
+    "Notify": {
+      "Done": "Audit of {name}: {ok} OK, {fail} not met, {review} to review.",
+      "Error": "PF2e Sheet Auditor: the audit failed. See the browser console (F12) for details."
+    },
+    "Unsupported": {
+      "System": "PF2e Sheet Auditor only works with the Pathfinder Second Edition (pf2e) system.",
+      "Language": "PF2e Sheet Auditor only supports English. Set Foundry's language to English to use it.",
+      "Version": "PF2e Sheet Auditor requires PF2e system {version} or newer (Remaster)."
+    },
+    "Settings": {
+      "GmOnly": {
+        "Name": "GM only",
+        "Hint": "Show the Audit Feats button only to Game Masters."
+      }
+    }
+  }
+}
